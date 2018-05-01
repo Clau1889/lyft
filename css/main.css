@@ -2,3 +2,57 @@ body{
     box-sizing: border-box;
     margin: 0;
 }
+/*Colocar imagen de fondo*/
+section#header_box {
+    background-image: url("../assets/images/hero.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20cm;
+}
+
+/*localicar el header*/
+header { 
+    height: 3.5cm;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+header > img{
+    margin-left: 0.8cm;
+    padding: 1cm;
+    width: 7%;
+}
+
+nav{
+    right: 1.5cm;
+    padding: 0.7cm;
+    position: absolute;
+    top: 1cm;
+}
+
+nav .menu{
+    color: #ffffff;
+    font-family: 'Gotham Sm A', sans-serif;
+    font-weight: lighter;
+    font-size: 130%;
+    margin-left: 1cm;
+    text-decoration: none;
+}
+
+.menu:hover{
+    color: #FF00BF;
+}
+
+.menu:last-child{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10%;
+    padding: 0.3cm 0.5cm;
+}
+
+
+
+
+
+
