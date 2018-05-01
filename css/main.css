@@ -12,7 +12,7 @@ section#header_box {
 
 /*localicar el header*/
 header { 
-    height: 3.5cm;
+    height: 3cm;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -28,7 +28,7 @@ nav{
     right: 1.5cm;
     padding: 0.7cm;
     position: absolute;
-    top: 1cm;
+    top: 0.5cm;
 }
 
 nav .menu{
@@ -36,7 +36,7 @@ nav .menu{
     font-family: 'Gotham Sm A', sans-serif;
     font-weight: lighter;
     font-size: 130%;
-    margin-left: 1cm;
+    margin-left: 1.5cm;
     text-decoration: none;
 }
 
@@ -50,6 +50,76 @@ nav .menu{
     border-radius: 10%;
     padding: 0.3cm 0.5cm;
 }
+
+/*Conteneder de datos*/
+#user_information_box{
+    background-color: #ffffff;
+    height: 10cm;
+    position: absolute;
+    right: 0;
+    top: 3cm;
+    width: 11cm;
+}
+    /*Titulos*/
+#titles{
+    color: #352384;
+    font-family: 'Gotham Sm A', sans-serif;
+    padding-left: 1.5cm;
+    text-transform: uppercase;
+}
+
+#titles h1{
+    font-size: 250%;
+    margin-bottom: 0;
+}
+
+#titles span{
+    font-weight: lighter;
+}
+
+input{
+    border: none;
+    font-family: 'Gotham Sm A', sans-serif;
+    font-size: 120%;
+    font-weight: lighter;
+    margin-top: 1cm;
+    margin-left: 1.5cm;
+}
+
+hr{
+    margin-left: 1.5cm;
+    width: 80%;
+}
+
+#buttons {
+    font-family: 'Gotham Sm A', sans-serif;
+    left: 1cm;
+    margin-top: 0.3cm;
+    padding: 0.5cm;
+    position: absolute;
+    width: 80%;
+}
+
+#buttons .first{
+    background-color: #FF00BF;
+    border: 1px solid #FF00BF;
+    border-radius: 5%;
+    color: #ffffff;
+    font-size: 110%;
+    margin-right: 0.4cm;
+    text-decoration: none;
+    padding: 0.5cm;
+}
+
+#small_text{
+    left: 1.2cm;
+    padding: 0.3cm;
+    position: absolute;
+    top: 8cm;
+}
+
+
+
 
 
 
