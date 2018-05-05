@@ -121,6 +121,7 @@ hr{
     top: 8cm;
 }
 
+/*Caja general de la segunda parte*/
 #information_box{
     background: -webkit-linear-gradient(top, rgb(107, 16, 139, 1) 0%,rgba(115,38,141,1) 34%,rgba(43,30,102,1) 98%);
     height: 17cm;
@@ -130,6 +131,7 @@ hr{
     width: 100%;;
 }
 
+/*informacion */
 #container_information{
     color: hsl(0, 0%, 100%);
     float: left;
@@ -152,11 +154,152 @@ hr{
     font-size:110%
 }
 
+/*imagen de celular de la segunda parte*/
 #information_box img{
     margin-left: 0.8cm;
     margin-top: 3.5cm;
     width: 40%;
 }
+
+/*seccion del primer video */
+section#video1_box {
+    display:inline-block;
+    height: 10cm;
+    font-family: "Gotham S Sm A", sans-serif;
+    position: absolute;
+    top: 32cm;
+    width: 100%;
+}
+
+#video1_box iframe{
+    border: none;
+    height:10cm;
+    position: absolute;
+    right: 0;
+    width: 63%;
+}
+
+section#video1_box div#text_video1{
+    height: 10cm;
+    margin-top: 1cm;
+    padding: 1cm;
+    position: absolute;
+    top: 0;
+    width: 30%;
+}
+
+div#text_video1 a{
+    color: #ff00bf;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div#text_video1 h2{
+    font-weight: bold;
+    font-size: 180%;
+    text-transform: uppercase;
+}
+
+div#text_video1 p{
+    font-size: 120%;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+/*seccion del segundo video */
+section#video2_box {
+    display:inline-block;
+    height: 10cm;
+    font-family: "Gotham S Sm A", sans-serif;
+    position: absolute;
+    top: 42cm;
+    width: 100%;
+}
+
+#video2_box iframe{
+    border: none;
+    height:10cm;
+    left: 0;
+    position: absolute;
+    width: 63%;
+}
+
+section#video2_box div#text_video2{
+    height: 10cm;
+    margin-top: 1cm;
+    padding: 1cm;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+}
+
+div#text_video2 a{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div#text_video2 h2{
+    font-weight: bold;
+    font-size: 180%;
+    text-transform: uppercase;
+}
+
+div#text_video2 p{
+    font-size: 120%;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+/*seccion del tercer video */
+section#video3_box {
+    display:inline-block;
+    height: 10cm;
+    font-family: "Gotham S Sm A", sans-serif;
+    position: absolute;
+    top: 52cm;
+    width: 100%;
+}
+
+#video3_box iframe{
+    border: none;
+    height:10cm;
+    position: absolute;
+    right: 0;
+    width: 63%;
+}
+
+section#video3_box div#text_video3{
+    height: 10cm;
+    margin-top: 1cm;
+    padding: 1cm;
+    position: absolute;
+    top: 0;
+    width: 30%;
+}
+
+div#text_video3 a{
+    color: #FF00BF;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div#text_video3 h2{
+    font-weight: bold;
+    font-size: 180%;
+    text-transform: uppercase;
+}
+
+div#text_video3 p{
+    font-size: 120%;
+    font-weight: lighter;
+    text-align: justify;
+}
+
 
 
 
