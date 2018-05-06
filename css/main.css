@@ -300,6 +300,142 @@ div#text_video3 p{
     text-align: justify;
 }
 
+/*Seccion footer*/
+#footer_big_container{
+    background-color: #333447;
+    color: #ffffff;
+    height: 10.5cm;
+    left: 0;
+    position: absolute;
+    top:10cm;
+    width: 100%;
+}
+
+section#columns_footer{
+    cursor: pointer;
+    display: flex;    
+    height: 7cm;
+    font-family: "Lato", sans-serif;
+    margin-top: 0.5cm;
+    text-align: center;
+    width: 100%;
+}
+
+section#columns_footer .footer_box{
+    margin-left: 1cm;
+    margin-top: 0.4cm;
+}
+
+section#log_in {
+    width: 20%;
+}
+
+#log_in h4 a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#log_in small a{
+    color: #ffffff;
+    display: inline-block;
+    padding:2.5mm;
+    text-decoration: none;
+}
+
+#log_in small a:hover{
+    color: #ff00bf;
+}
+
+section#partner{
+    text-decoration: none;
+    width: 20%;   
+}
+
+#partner h4 a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#partner small a{
+    color: #ffffff;
+    display: inline-block;
+    padding:2.5mm;
+    text-decoration: none;
+}
+
+#partner small a:hover{
+    color: #ff00bf;
+}
+section#learn{
+    text-decoration: none;
+    width: 20%;
+}
+
+#learn h4 a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#learn small a{
+    color: #ffffff;
+    display: inline-block;
+    padding:2.5mm;
+    text-decoration: none;
+}
+
+#learn small a:hover{
+    color: #ff00bf;
+}
+
+#footer_images {
+    width: 20%;
+}
+
+#footer_images img{
+    padding: 0.5cm;
+    width: 3cm;
+}
+
+section#last_section{
+    color: white;
+    height: 5cm;
+    position: absolute;
+    text-align: center;
+    top: 7.5cm;
+    width: 100%;
+}
+
+section#last_section #iconos{
+    padding: 0.5cm;
+}
+
+#iconos a.icono{
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    margin: 0.25cm;
+    padding: 0.3cm;
+    text-align: center;
+}
+
+#last_section > hr{
+    font-size: 3px white;
+    margin-left: 8cm;
+    text-align: center;
+    width: 10cm;
+}
+
+#copy_right small.phrase a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 
 
