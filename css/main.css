@@ -11,7 +11,7 @@ section#header_box {
     height: 20cm;
 }
 
-/*localicar el header*/
+/*localizar el header*/
 header { 
     background-color: rgba(34, 26, 57, 0.2);
     height: 3cm;
@@ -103,15 +103,29 @@ hr{
     width: 80%;
 }
 
-#buttons .first{
+#buttons button.first{
     background-color: #FF00BF;
     border: 1px solid #FF00BF;
     border-radius: 5%;
-    color: #ffffff;
+    cursor: pointer;
     font-size: 110%;
     margin-right: 0.4cm;
+    margin-top: 0;
     text-decoration: none;
     padding: 0.5cm;
+}
+
+#buttons button.first a{
+    color: #ffffff;
+}
+
+#buttons button.second{
+    background-color: #ffffff;
+    border: none;
+}
+
+#buttons button.second a{
+    text-decoration: none;
 }
 
 #small_text{
@@ -325,7 +339,7 @@ section#columns_footer .footer_box{
     margin-left: 1cm;
     margin-top: 0.4cm;
 }
-
+/*Primera columna*/
 section#log_in {
     width: 20%;
 }
@@ -352,7 +366,7 @@ section#partner{
     text-decoration: none;
     width: 20%;   
 }
-
+/*Segunda columna*/
 #partner h4 a{
     color: #ffffff;
     font-weight: bold;
@@ -370,6 +384,7 @@ section#partner{
 #partner small a:hover{
     color: #ff00bf;
 }
+/*Tercera columna*/
 section#learn{
     text-decoration: none;
     width: 20%;
@@ -393,6 +408,7 @@ section#learn{
     color: #ff00bf;
 }
 
+/*Columna de imagenes*/
 #footer_images {
     width: 20%;
 }
@@ -411,6 +427,7 @@ section#last_section{
     width: 100%;
 }
 
+/*Iconos redes sociales*/
 section#last_section #iconos{
     padding: 0.5cm;
 }
@@ -431,6 +448,7 @@ section#last_section #iconos{
     width: 10cm;
 }
 
+/*Terminos y privacidad*/
 #copy_right small.phrase a{
     color: #ffffff;
     text-decoration: none;
